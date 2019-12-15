@@ -4,12 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const app = express()
 const forbiddenCharacters = ['<', '>', '&lt;', '&gt;', '&']
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+
 
 admin.initializeApp(functions.config().firebase)
 
